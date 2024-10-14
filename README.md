@@ -30,9 +30,9 @@ Imagine a liquidity provider (LP) adds liquidity to a pool on Balancer V3 using 
 
 Developing the FeeRebate Hook was a rewarding experience, but it came with some challenges:
 
-Seamless Integration with Balancer Vault: The Balancer Vault API provides excellent modularity for implementing custom hooks. The extensive documentation and clear interface design allowed for smooth interaction between the hook and vault, particularly when handling liquidity events.
+- Seamless Integration with Balancer Vault: The Balancer Vault API provides excellent modularity for implementing custom hooks. The extensive documentation and clear interface design allowed for smooth interaction between the hook and vault, particularly when handling liquidity events.
 
-Learning Curve for Dynamic Fee Computation: Implementing dynamic swap fee computation involved a bit of trial and error. While the Vault’s structure is well-documented, calculating real-time fees based on liquidity and time constraints required a solid understanding of the pool’s internal logic. However, the modularity of the Balancer system allowed for flexibility in how we approached this.
+- Learning Curve for Dynamic Fee Computation: Implementing dynamic swap fee computation involved a bit of trial and error. While the Vault’s structure is well-documented, calculating real-time fees based on liquidity and time constraints required a solid understanding of the pool’s internal logic. However, the modularity of the Balancer system allowed for flexibility in how we approached this.
 
 
 In summary, the experience with Balancer V3’s hook system was positive. The flexibility and power it provides allow for creative solutions like the FeeRebate hook, though attention to optimization and security is essential for production use.
