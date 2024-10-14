@@ -3,4 +3,18 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+solc = "0.8.24"
+evm_version = "cancun"
+via_ir = true
+
+remappings = [
+    "@openzeppelin/contracts=lib/openzeppelin-contracts/contracts",
+    "@balancer-labs/v3-interfaces/contracts=lib/balancer-v3-monorepo/pkg/interfaces/contracts",
+    "@balancer-labs/contracts=lib/balancer-v3-monorepo/pkg",
+    "@balancer-labs/v3-vault/contracts=lib/balancer-v3-monorepo/pkg/vault/contracts",
+    "@balancer-labs/v3-solidity-utils=lib/balancer-v3-monorepo/pkg/solidity-utils",
+    "@balancer-labs/v3-pool-utils=lib/balancer-v3-monorepo/pkg/pool-utils",
+    "permit2/=lib/permit2/",
+]
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
